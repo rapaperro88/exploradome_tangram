@@ -1,0 +1,6 @@
+projectKey=numpy-explo
+serverUrl=http://localhost:9000
+serverVersion=7.9.1.27448
+dashboardUrl=http://localhost:9000/dashboard?id=numpy-explo
+ceTaskId=AXShd-N9lXkfRb1rZ29i
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXShd-N9lXkfRb1rZ29i

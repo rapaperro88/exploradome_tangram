@@ -17,7 +17,11 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Tangram detection\n")
     # default to webcam
     parser.add_argument(
-        '-m', '--mode', help='analyze picture or video', default=False)
+        '-m', '--mode', help='input to analyse: \\
+            picture (mode: path to .jpg or .png file), \\
+            video (path to .mp4 or .mov file) or \\
+            camera (0: for integrated cam, 1: for external cam)',
+        default=False) 
     parser.add_argument(
         '-s', '--side', help='analyze left / right or the full frame', default="left")
     parser.add_argument('-metrics', '--metrics',
